@@ -1,0 +1,18 @@
+# Đặt nền tảng iOS mặc định là 12.0
+platform :ios, '12.0'
+
+target 'Runner' do
+  # Giữ dòng này nếu bạn cần dynamic frameworks
+  use_frameworks!
+
+  # Pods for Runner (thêm các thư viện Firebase cho toàn bộ ứng dụng)
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+
+  target 'RunnerTests' do
+    inherit! :search_paths
+    # Pods for testing (nếu cần thêm các thư viện riêng cho testing, bạn có thể thêm ở đây)
+  end
+
+end

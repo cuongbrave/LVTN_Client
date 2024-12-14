@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1001272516989",
+    "project_id": "ctuhoot-app",
+    "storage_bucket": "ctuhoot-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001272516989:android:e479e1acbd345e73b56c14",
+        "android_client_info": {
+          "package_name": "com.example.b2004772"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACIn_l1SD7OoBnRXJO6TfXs6KZFd3RFEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
